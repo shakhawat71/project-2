@@ -44,4 +44,14 @@
  .hero-section p{
   font-size: 0.9rem;
  }
+ .our-plants{
+   max-width: 362px;
+  margin: 0 auto;
+ }
+ .product-card{
+  grid-template-columns: repeat(2,1fr);
+ }
+ .product-card button{
+  padding: 19px 31px 19px 31px;
+ }
 }
