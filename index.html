@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Home</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/tailwind.init.css">
+    <script src="https://kit.fontawesome.com/7cc94a2532.js" crossorigin="anonymous"></script>
 </head>
-<body class="noto-serif-font">
-    <header>
-        
+<body class="noto-serif-font bg-color">
+    <header class="max-w-6xl m-auto">
+        <div class="flex justify-between items-center mt-[30px] navbar">
+            <img class="w-[135px] logo" src="assets/logo.png" alt="">
+            <nav>
+                <ul class="flex gap-x-10">
+                   <li class="nav-1"><a class="text-black font-bold" href="">Home</a></li>
+                   <li class="nav-1"><a class="text-gray-400 font-normal nav-1" href="">Shop</a></li>
+                   <li class="nav-1"><a class="text-gray-400 font-normal nav-1" href="">About Us</a></li>
+                   <li><a class="text-black font-normal cart" href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 </body>
 </html>

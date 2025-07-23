@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import "tailwind";
+@import "tailwindcss";
 
 @layer utilities{
 .noto-serif-font {
   font-family: "Noto Serif", serif;
 }
+.bg-color{
+  color: #F5F8FF;
+}
+}
+@media screen and (max-width: 570px) {
+  .navbar{
+    justify-items: center;
+    align-items: center;
+    max-width: 361px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .logo{
+    width: 63px;
+  }
+ .nav-1{
+  display: none;
+ }
+ .cart{
+  margin-right: 16px;
+ }
 }
