@@ -10,6 +10,9 @@
   color: #F5F8FF;
 }
 }
+.trusted-badge{
+  
+}
 @media screen and (max-width: 570px) {
   .navbar{
     justify-items: center;
@@ -53,5 +56,30 @@
  }
  .product-card button{
   padding: 19px 31px 19px 31px;
+ }
+ .plants-lover{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 42px;
+ }
+ .plants-lover img{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+ }
+ .plant-conatiner h1, li{
+  margin-bottom: 16px;
+ }
+ .plants-lover h1{
+  font-size: 1.5rem;
+ }
+ .plants-lover ul{
+  width: 90%;
+  margin: 0 auto;
+ }
+ .trusted-badge{
+  display: none;
  }
 }
