@@ -13,6 +13,15 @@
 .trusted-badge{
   
 }
+.card-1{
+  background-image: url(../assets/deal-bloom.png);
+}
+.card-2{
+  background-image: url(../assets/deal-ana.png);
+}
+.card-3{
+  background-image: url(../assets/deal-zabo.png);
+}
 @media screen and (max-width: 570px) {
   .navbar{
     justify-items: center;
@@ -81,5 +90,24 @@
  }
  .trusted-badge{
   display: none;
+ }
+ .latest-container{
+  flex-wrap: wrap;
+  flex-direction: column;
+ }
+ .latest-deal h1{
+  font-size: 1.5rem;
+ }
+ .latest-deal p{
+  font-size: 0.8rem;
+  width: 336px;
+ }
+ .card-3{
+  width: 367px;
+  height: 250px;
+ }
+ .img-1-2{
+  justify-content: center;
+  margin: 0 auto;
  }
 }
